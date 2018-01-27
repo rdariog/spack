@@ -66,4 +66,4 @@ class Libtool(AutotoolsPackage):
         symlink(join_path(self.prefix.bin, 'libtoolize'),
                 join_path(self.prefix.bin, 'glibtoolize'))
         symlink(join_path(self.prefix.bin, 'libtoolize'),
-                join_path(self.prefix.bin, 'glibtoolize'))
+                join_path(self.prefix.bin, 'glibtool'))
